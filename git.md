@@ -47,11 +47,7 @@ If we use this command we have changes to add, it shows us these changes.
 
 `git status`
 
-## git push
 
-With this command we send the changes to the main branch of the remote repository.
-
-`git push`
 
 ## git diff
 
@@ -83,11 +79,6 @@ To change the branch we use:
 
 `git checkout`
 
-## git merge
-
-To merge a branch with another active branch we use:
-
-`git merge [branch-name]`
 
 ## git log
 
@@ -113,3 +104,31 @@ To see the differences between two branches we use:
 To view information about a git object:
 
 `git show`
+
+# Share and update
+
+To add a git URL as an alias we use:
+
+`git remote add [alias] [url]`
+
+This command allows the user to search for all objects in a remote repository that do not currently reside in the local directory that they are working on:
+
+`git fetch [alias]`
+
+## git merge
+
+To merge a branch with another active branch we use:
+
+`git merge [branch-name]`
+
+## git push
+
+With this command we send the changes to the main branch of the remote repository.
+
+`git push`
+
+## git pull
+
+In order to merge all the changes that have been made in the local repository working, the command that is used is:
+
+`git pull`
