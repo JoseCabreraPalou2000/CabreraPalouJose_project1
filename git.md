@@ -94,3 +94,22 @@ To merge a branch with another active branch we use:
 To merge a branch with another active branch we use:
 
 `git log`
+
+
+# Inspect and compare
+
+To compare the commits that are in one branch but not in another we use:
+
+`git log branch1..branch2`
+
+To see the commits that changed the file (even if they changed their name) we use:
+
+`git log --follow [file]`
+
+To see the differences between two branches we use:
+
+`git diff branch1...branch2`
+
+To view information about a git object:
+
+`git show`
