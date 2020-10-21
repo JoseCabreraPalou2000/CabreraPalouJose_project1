@@ -65,4 +65,32 @@ To return a file to the working directory we use:
 
 `git reset [file]`
 
+# Branch and merge
 
+## git branch
+
+This command is used to list, create or delete branches
+
+To list the brands we use:
+
+`git branch`
+
+To create a new branch (in the commit we are in) we use:
+
+`git branch [branch name]`
+
+To change the branch we use:
+
+`git checkout`
+
+## git merge
+
+To merge a branch with another active branch we use:
+
+`git merge [branch-name]`
+
+## git log
+
+To merge a branch with another active branch we use:
+
+`git log`
